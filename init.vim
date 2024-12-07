@@ -7,17 +7,14 @@
 :set softtabstop=4
 :set mouse=a
 
-# 1. install PlugInstall
 call plug#begin()
 
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
 Plug 'https://github.com/preservim/nerdtree' " NerdTree
 Plug 'https://github.com/vim-airline/vim-airline' " Status bar
 Plug 'rust-lang/rust.vim'
-" Use release branch (recommended)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'npm ci'}
-Plug 'rust-lang/rust.vim'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
 
@@ -30,7 +27,6 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
 
-# 2. rust rust analyzer
 syntax enable
 filetype plugin indent on
 
