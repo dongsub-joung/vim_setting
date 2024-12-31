@@ -18,7 +18,10 @@
 
 https://github.com/hrsh7th/nvim-cmp  
 
-https://github.com/neovim/nvim-lspconfig
+https://github.com/neovim/nvim-lspconfig  
+
+https://gist.github.com/mengwangk/570a6ceb8cd14e55f4d89ac865850418  
+
 
 # tips  
 
