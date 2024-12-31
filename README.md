@@ -26,3 +26,7 @@ https://gist.github.com/mengwangk/570a6ceb8cd14e55f4d89ac865850418
 # tips  
 
 :split & : term 
+
+# just ez way
+
+lunarvim
