@@ -10,10 +10,12 @@
 > :CocInstall coc-rust-analyzer
 > :CocInstall coc-python
 
-> :split & : term 
-
 # nvim setting
-~/.config/nvim/init.vim
-> Scratch
 
-https://www.youtube.com/watch?v=JWReY93Vl6g
+~/.config/nvim/init.vim  
+
+https://github.com/hrsh7th/nvim-cmp
+
+# tips  
+
+:split & : term 
