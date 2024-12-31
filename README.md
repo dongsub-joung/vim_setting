@@ -14,7 +14,11 @@
 
 ~/.config/nvim/init.vim  
 
-https://github.com/hrsh7th/nvim-cmp
+# auto import on lsp and cmp  
+
+https://github.com/hrsh7th/nvim-cmp  
+
+https://github.com/neovim/nvim-lspconfig
 
 # tips  
 
